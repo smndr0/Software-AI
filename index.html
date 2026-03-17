@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software AI — Build Bold. Launch Fast.</title>
+  <meta name="description"
+    content="Software AI is the next-generation AI platform that lets you design, build, and ship intelligent software at unprecedented speed." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+
+  <!--  NAVBAR  -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
+            <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" fill="none" />
+            <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" fill="none" />
+          </svg>
+        </div>
+        <span class="logo-text">Software AI</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#product" class="nav-link">Product</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#showcase" class="nav-link">Showcase</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#enterprise" class="nav-link">Enterprise</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#" class="btn-ghost" id="loginBtn">Log in</a>
+        <a href="#" class="btn-primary" id="signupBtn">Get started</a>
+      </div>
+
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!--  HERO  -->
+  <section class="hero-ref" id="product">
+    <div class="hero-ref-bg">
+      <div class="hero-ref-glow"></div>
+      <div class="hero-ref-grid"></div>
+    </div>
+
+    <div class="hero-ref-content">
+      <div class="hero-ref-left">
+        <h1 class="hero-ref-title">
+          <span class="title-line">Software</span>
+          <span class="title-line gradient-text">AI</span>
+        </h1>
+        <p class="hero-ref-subtitle">
+          The next-generation AI platform that lets you design, build, and ship intelligent software at unprecedented
+          speed.
+        </p>
+        <div class="hero-ref-actions">
+          <a href="#" class="btn-hero-primary">
+            <span>Start for free</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href="#" class="btn-hero-secondary">
+            <div class="ai-btn-icon">✦</div>
+            <span>Start with AI</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-ref-center">
+        <div class="ai-figure">
+          <div class="ai-core"></div>
+          <div class="ai-ring ring-1"></div>
+          <div class="ai-ring ring-2"></div>
+          <div class="ai-ring ring-3"></div>
+          <div class="ai-node node-1"></div>
+          <div class="ai-node node-2"></div>
+          <div class="ai-node node-3"></div>
+          <div class="ai-node node-4"></div>
+          <div class="ai-node node-5"></div>
+          <div class="ai-node node-6"></div>
+        </div>
+      </div>
+
+      <div class="hero-ref-right">
+        <div class="floating-dashboard-card card-1">
+          <div class="card-header">
+            <span class="card-title">AI Code Generation</span>
+            <span class="card-status status-success">Active</span>
+          </div>
+          <p class="card-description">Generate production-ready code from natural language prompts.</p>
+        </div>
+        <div class="floating-dashboard-card card-2">
+          <div class="card-header">
+            <span class="card-title">Real-time Deployment</span>
+            <span class="card-status status-info">Live</span>
+          </div>
+          <p class="card-description">Deploy your applications globally in seconds with zero downtime.</p>
+        </div>
+        <div class="floating-dashboard-card card-3">
+          <div class="card-header">
+            <span class="card-title">Intelligent Debugging</span>
+            <span class="card-status status-warning">Monitoring</span>
+          </div>
+          <p class="card-description">AI-powered insights to identify and fix bugs proactively.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS MARQUEE -->
+  <section class="logos-section">
+    <p class="logos-label">Trusted by teams at</p>
+    <div class="marquee-container">
+      <div class="marquee-track" id="marqueeTrack">
+        <span class="logo-brand">OpenAI</span>
+        <span class="logo-brand">Vercel</span>
+        <span class="logo-brand">Stripe</span>
+        <span class="logo-brand">Notion</span>
+        <span class="logo-brand">Linear</span>
+        <span class="logo-brand">Figma</span>
+        <span class="logo-brand">Supabase</span>
+        <span class="logo-brand">Anthropic</span>
+        <span class="logo-brand">GitHub</span>
+        <span class="logo-brand">Tailwind</span>
+        <!-- Duplicate for seamless loop -->
+        <span class="logo-brand">OpenAI</span>
+        <span class="logo-brand">Vercel</span>
+        <span class="logo-brand">Stripe</span>
+        <span class="logo-brand">Notion</span>
+        <span class="logo-brand">Linear</span>
+        <span class="logo-brand">Figma</span>
+        <span class="logo-brand">Supabase</span>
+        <span class="logo-brand">Anthropic</span>
+        <span class="logo-brand">GitHub</span>
+        <span class="logo-brand">Tailwind</span>
+      </div>
+    </div>
+  </section>
+
+  <!--  FEATURE SPOTLIGHT  -->
+  <section class="spotlight" id="features">
+    <div class="section-container">
+      <div class="spotlight-header">
+        <div class="section-tag">✦ Core Platform</div>
+        <h2 class="section-title">Design and ship<br />in one place</h2>
+      </div>
+
+      <div class="spotlight-grid">
+        <!-- Left text -->
+        <div class="spotlight-text">
+          <div class="feature-accordion">
+            <div class="accordion-item active" id="acc1">
+              <div class="accordion-header">
+                <div class="accordion-icon">01</div>
+                <span>Design freely</span>
+                <div class="accordion-arrow">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-body">
+                <p>Skip framework boilerplate and start shipping with AI. Our intelligent canvas lets you explore ideas
+                  like a design tool while generating production code underneath.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item" id="acc2">
+              <div class="accordion-header">
+                <div class="accordion-icon">02</div>
+                <span>Build with AI</span>
+                <div class="accordion-arrow">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-body">
+                <p>Describe what you want, and our AI writes the code, wires the logic, and sets up the infrastructure —
+                  all in seconds, not sprints.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item" id="acc3">
+              <div class="accordion-header">
+                <div class="accordion-icon">03</div>
+                <span>Deploy instantly</span>
+                <div class="accordion-arrow">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-body">
+                <p>One click to global edge deployment. Auto-scaling, SSL, and CDN are included. Your software goes live
+                  in under 3 seconds.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item" id="acc4">
+              <div class="accordion-header">
+                <div class="accordion-icon">04</div>
+                <span>Free and unlimited</span>
+                <div class="accordion-arrow">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                </div>
+              </div>
+              <div class="accordion-body">
+                <p>Start completely free with no limits on projects. Scale to pro features when your team needs more
+                  power, collaboration, and analytics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right preview -->
+        <div class="spotlight-preview">
+          <div class="preview-window">
+            <div class="preview-bar">
+              <div class="preview-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="preview-title">Software AI Studio</div>
+              <div class="preview-actions">
+                <span class="preview-btn">Deploy ↗</span>
+              </div>
+            </div>
+            <div class="preview-content" id="previewContent">
+              <div class="preview-sidebar">
+                <p class="sidebar-label">Pages</p>
+                <ul class="sidebar-list">
+                  <li class="sidebar-item active">🏠 Home</li>
+                  <li class="sidebar-item">/about</li>
+                  <li class="sidebar-item">/features</li>
+                  <li class="sidebar-item">/pricing</li>
+                  <li class="sidebar-item">/blog</li>
+                  <li class="sidebar-item">/contact</li>
+                </ul>
+                <p class="sidebar-label" style="margin-top:16px">Components</p>
+                <ul class="sidebar-list">
+                  <li class="sidebar-item">■ Navbar</li>
+                  <li class="sidebar-item active">■ Hero</li>
+                  <li class="sidebar-item">■ Features</li>
+                  <li class="sidebar-item">■ Pricing</li>
+                </ul>
+              </div>
+              <div class="preview-canvas">
+                <div class="canvas-card card-blue">
+                  <div class="canvas-label">SOFTWARE</div>
+                  <div class="canvas-sub">AI Platform</div>
+                </div>
+                <div class="canvas-card card-purple">
+                  <div class="canvas-label">AI</div>
+                  <div class="canvas-sub">Studio</div>
+                </div>
+                <div class="canvas-card card-dark">
+                  <div class="canvas-label">DEPLOY</div>
+                  <div class="canvas-sub">Live in 3s</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  FEATURES GRID  -->
+  <section class="features-grid-section" id="showcase">
+    <div class="section-container">
+      <div class="section-header-center">
+        <div class="section-tag">✦ Why Software AI</div>
+        <h2 class="section-title">The beauty is<br />in the details</h2>
+        <p class="section-subtitle">Every feature crafted at pixel precision. Every workflow designed for speed.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card feat-large" data-index="0">
+          <div class="feat-icon">🧠</div>
+          <h3>AI Code Generation</h3>
+          <p>Describe your feature in plain English. Get production-ready code in seconds with full context awareness
+            across your entire codebase.</p>
+          <div class="feat-visual">
+            <div class="code-preview">
+              <div class="code-line"><span class="code-keyword">async function</span> <span
+                  class="code-fn">generateFeature</span><span class="code-punc">(</span><span
+                  class="code-param">prompt</span><span class="code-punc">) {</span></div>
+              <div class="code-line code-indent"><span class="code-keyword">const</span> response <span
+                  class="code-op">=</span> <span class="code-keyword">await</span> ai<span
+                  class="code-punc">.</span><span class="code-fn">complete</span><span class="code-punc">({</span></div>
+              <div class="code-line code-indent2">model<span class="code-punc">:</span> <span
+                  class="code-str">"software-ai-v2"</span><span class="code-punc">,</span></div>
+              <div class="code-line code-indent2">prompt<span class="code-punc">,</span> context<span
+                  class="code-punc">:</span> codebase</div>
+              <div class="code-line code-indent"><span class="code-punc">});</span></div>
+              <div class="code-line"><span class="code-keyword">return</span> response<span
+                  class="code-punc">.</span>code<span class="code-punc">;</span></div>
+              <div class="code-line"><span class="code-punc">}</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card" data-index="1">
+          <div class="feat-icon">⚡</div>
+          <h3>Vector Sets</h3>
+          <p>Draw, edit, and manage complete vector sets. Perfect for building icon libraries and scalable graphics.</p>
+          <div class="feat-visual small-icons">
+            <div class="icon-grid">
+              <span>↑</span><span>⊟</span><span>◱</span>
+              <span>⊡</span><span>⊛</span><span>📷</span>
+              <span>🛒</span><span>★</span><span>📊</span>
+              <span>💬</span><span>✓</span><span>🕐</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card" data-index="2">
+          <div class="feat-icon">🎬</div>
+          <h3>Smart Animations</h3>
+          <p>Bring interfaces to life with spring physics, easing curves, and AI-suggested micro-interactions. No
+            external tools required.</p>
+          <div class="feat-visual animation-demo">
+            <div class="demo-ball" id="demoBall"></div>
+            <div class="demo-curve">
+              <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 50 C50 50 80 10 100 30 S150 10 200 5" stroke="#6366f1" stroke-width="2" fill="none" />
+                <circle cx="100" cy="30" r="4" fill="#818cf8" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card feat-wide" data-index="3">
+          <div class="feat-icon">🔡</div>
+          <h3>OpenType Typography</h3>
+          <p>Unlock advanced typography with ligatures, alternates, variable fonts, and stylistic sets. Full control
+            over every letter.</p>
+          <div class="feat-visual type-demo">
+            <div class="type-large">B E F</div>
+            <div class="type-sets">
+              <div class="type-set-row"><span>Stylistic Set 1</span><span class="toggle-no">Yes</span><span
+                  class="toggle-yes active">No</span></div>
+              <div class="type-set-row"><span>Stylistic Set 2</span><span class="toggle-yes active">Yes</span><span
+                  class="toggle-no">No</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-card" data-index="4">
+          <div class="feat-icon">🔒</div>
+          <h3>Enterprise Security</h3>
+          <p>SOC 2 Type II certified. SSO, audit logs, role-based access, and end-to-end encryption out of the box.</p>
+        </div>
+
+        <div class="feature-card" data-index="5">
+          <div class="feat-icon">🌐</div>
+          <h3>Global Edge Network</h3>
+          <p>Deploy to 180+ edge locations worldwide. Sub-50ms response times guaranteed with automatic failover.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  PRICING  -->
+  <section class="pricing-section" id="pricing">
+    <div class="section-container">
+      <div class="section-header-center">
+        <div class="section-tag">✦ Simple Pricing</div>
+        <h2 class="section-title">Choose your plan</h2>
+        <p class="section-subtitle">Scale from solo builders to enterprise teams. Always affordable.</p>
+      </div>
+
+      <div class="pricing-toggle">
+        <span class="toggle-label" id="monthlyLabel">Monthly</span>
+        <div class="toggle-switch" id="pricingToggle">
+          <div class="toggle-thumb"></div>
+        </div>
+        <span class="toggle-label" id="annualLabel" style="opacity:0.5">Annual <span class="save-badge">Save
+            30%</span></span>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card" data-index="0">
+          <div class="price-tag">Free</div>
+          <div class="price-amount"><span class="price-num">$0</span><span class="price-per">/mo</span></div>
+          <p class="price-desc">Perfect for solo builders and side projects.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> 3 active projects</li>
+            <li><span class="check">✓</span> AI code generation (50/day)</li>
+            <li><span class="check">✓</span> Community support</li>
+            <li><span class="check">✓</span> 1GB storage</li>
+            <li><span class="muted">✗</span> Custom domains</li>
+            <li><span class="muted">✗</span> Team collaboration</li>
+          </ul>
+          <a href="#" class="price-btn price-btn-outline">Get started free</a>
+        </div>
+
+        <div class="price-card price-featured" data-index="1">
+          <div class="price-badge">Most Popular</div>
+          <div class="price-tag">Pro</div>
+          <div class="price-amount"><span class="price-num" id="proPrice">$19</span><span class="price-per">/mo</span>
+          </div>
+          <p class="price-desc">For professional developers who ship fast.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Unlimited projects</li>
+            <li><span class="check">✓</span> Unlimited AI generation</li>
+            <li><span class="check">✓</span> Priority support</li>
+            <li><span class="check">✓</span> 100GB storage</li>
+            <li><span class="check">✓</span> Custom domains</li>
+            <li><span class="check">✓</span> Advanced analytics</li>
+          </ul>
+          <a href="#" class="price-btn price-btn-primary">Start Pro trial</a>
+        </div>
+
+        <div class="price-card" data-index="2">
+          <div class="price-tag">Enterprise</div>
+          <div class="price-amount"><span class="price-num">Custom</span></div>
+          <p class="price-desc">For teams that need control, compliance, and scale.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Everything in Pro</li>
+            <li><span class="check">✓</span> SSO & SAML</li>
+            <li><span class="check">✓</span> Audit logs</li>
+            <li><span class="check">✓</span> SLA guarantee</li>
+            <li><span class="check">✓</span> Dedicated support</li>
+            <li><span class="check">✓</span> On-premise option</li>
+          </ul>
+          <a href="#" class="price-btn price-btn-outline" id="enterpriseBtn">Contact sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  CTA  -->
+  <section class="cta-section" id="enterprise">
+    <div class="cta-glow"></div>
+    <div class="section-container cta-inner">
+      <h2 class="cta-title">Ready to build<br />the future?</h2>
+      <p class="cta-subtitle">Join 500,000+ developers already shipping with Software AI.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn-hero-primary" id="ctaStartBtn">
+          <span>Start for free</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a href="#" class="btn-hero-secondary" id="ctaDemoBtn">Book a demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!--  FOOTER  -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
+                <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" fill="none" />
+                <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" fill="none" />
+              </svg>
+            </div>
+            <span class="logo-text">Software AI</span>
+          </a>
+          <p class="footer-tagline">Build bold. Launch fast.<br />Powered by artificial intelligence.</p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">AI Studio</a></li>
+              <li><a href="#">Integrations</a></li>
+              <li><a href="#">Changelog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Templates</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Status</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Software AI. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          <a href="#" class="social-link" aria-label="GitHub">⌥</a>
+          <a href="#" class="social-link" aria-label="Discord">◈</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
