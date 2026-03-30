@@ -8,11 +8,11 @@ This repository contains a fully responsive, pixel-perfect landing page designed
 
 Key Features
 
-- **Modern UI/UX**: Implements a cutting-edge dark mode design with glassmorphism, subtle glowing gradients, and high-quality typography.
-- **Performance Optimized**: Built without heavy JavaScript frameworks. Pure HTML, CSS, and Vanilla JavaScript ensure maximum performance, zero bloat, and minimal load times.
-- **Responsive Engineering**: Fluid design that adapts perfectly to desktop, tablet, and mobile viewing environments using modern CSS Grid and Flexbox techniques.
-- **Complex Animations**: Features custom CSS keyframe animations, hover physics, floating 3D dashboard cards, and an infinite looping marquee.
-- **Interactive Elements**: Includes a custom animated hero section, interactive pricing toggles, and dynamic accordion features.
+- Modern UI/UX: Implements a cutting-edge dark mode design with glassmorphism, subtle glowing gradients, and high-quality typography.
+- Performance Optimized: Built without heavy JavaScript frameworks. Pure HTML, CSS, and Vanilla JavaScript ensure maximum performance, zero bloat, and minimal load times.
+- Responsive Engineering: Fluid design that adapts perfectly to desktop, tablet, and mobile viewing environments using modern CSS Grid and Flexbox techniques.
+- Complex Animations: Features custom CSS keyframe animations, hover physics, floating 3D dashboard cards, and an infinite looping marquee.
+- Interactive Elements: Includes a custom animated hero section, interactive pricing toggles, and dynamic accordion features.
 
 Tech Stack
 
